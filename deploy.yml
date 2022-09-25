@@ -1,0 +1,4 @@
+- name: simple play 
+  hosts: localhost
+  debug:
+    msg: "hello world"
