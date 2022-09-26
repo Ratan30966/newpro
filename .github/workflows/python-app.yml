@@ -33,3 +33,5 @@ jobs:
       with:
       # Required, playbook filepath
          playbook: deploy.yml
+         options: |
+            --inventory .hosts
