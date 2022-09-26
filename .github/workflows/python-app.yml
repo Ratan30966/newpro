@@ -34,4 +34,5 @@ jobs:
       # Required, playbook filepath
          playbook: deploy.yml
          options: |
-            --inventory .hosts
+           --inventory .hosts
+           --extra-vars hello=there
